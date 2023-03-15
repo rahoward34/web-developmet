@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav">
+        <div class="flex-container">
+            <h1 class="nav-title">DojoWeather</h1>
+            <ul class="nav-links">
+                <li><a onclick="alert('Loading Weather Report...')" href="#">Burbank</a></li>
+                <li><a onclick="alert('Loading Weather Report...')" href="#">Chicago</a></li>
+                <li><a onclick="alert('Loading Weather Report...')" href="#">Dallas</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="flex-container-main">
+        <div class="top-display">
+            <h2 class="city-name">San Jose</h2>
+            <div class="show-temp">
+            <p class="temp-display">show temperature in</p>
+            <select onchange="change_text()"  name="temp" id="temp">
+                <option value="celcius">°C</option>
+                <option value="farenheight">°F</option>
+            </select>
+            </div>
+        </div>
+        <div class="card-row">
+            <div class="card">
+                <h2 class="day">Today</h2>
+                <img class="image" src="some_rain.png" alt="rainyDay">
+                <p>some rain</p>
+                <div class="high-low">
+                    <h3 id="tH1" class="tempH">24°</h3>
+                    <h3 id="tC2" class="tempL">18°</h3>
+                </div>
+            </div>
+            <div class="card">
+                <h2 class="day">Tomorrow</h2>
+                <img class="image" src="some_sun.png" alt="sunDay">
+                <p>some sun</p>
+                <div class="high-low">
+                    <h3 id="tH2" class="tempH">27°</h3>
+                    <h3 id="tC2" class="tempL">19°</h3>
+                </div>
+            </div>
+            <div class="card">
+                <h2 class="day">Friday</h2>
+                <img class="image" src="some_clouds.png" alt="cloudDay">
+                <p>some clouds</p>
+                <div class="high-low">
+                    <h3 id="tH3" class="tempH">21°</h3>
+                    <h3 id="tC3" class="tempL">16°</h3>
+                </div>
+            </div>
+            <div class="card">
+                <h2 class="day">Saturday</h2>
+                <img class="image" src="some_sun.png" alt="sunDay">
+                <p>some sun</p>
+                <div class="high-low">
+                    <h3 id="tH4" class="tempH">26°</h3>
+                    <h3 id="tC4" class="tempL">21°</h3>
+                </div>
+            </div>
+        </div>
+        <div id="cookie-row">
+            <div class="cookie-card">
+                <div class="cookie-img">
+                    <img src="cookie.png" alt="youMonster">
+                </div>
+                <div class="cookie-text">
+                    <h2 class="cookie-header">Stop! Cookie Time</h2>
+                    <p class="cookieP">We are using cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyze our traffic. <a class="readMore" href="">Read more...</a></p>
+                </div>
+                <div class="cookie-btn">
+                    <button onclick="hide(this)">I Accept</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

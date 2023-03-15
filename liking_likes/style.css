@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.top-nav {
+    background-color: black;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+h1 {
+    color: aliceblue;
+    margin-left: 20px;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.bottom-nav {
+    display: flex;
+    justify-content: space-around;
+}
+.left-nav {
+    width: 135px;
+    height: 270px;
+    border: solid;
+    border-color: black;
+    text-align: center;
+}
+.name-left {
+    margin-top: 20px;
+}
+.right-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.likeBox {
+    border-style: solid;
+    border-color: black;
+    width: 430px;
+    height: 135px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+#likeOne {
+    border: none;
+    width: 25px;
+    font-size: large;
+}
+#likeTwo {
+    border: none;
+    width: 25px;
+    font-size: large;
+}
+#likeThree {
+    border: none;
+    width: 25px;
+    font-size: large;
+}
+.like {
+    height: 30px;
+    width: 60px;
+    background-color: yellow;
+}

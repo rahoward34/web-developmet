@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(247, 247, 247);
+    font-family: monospace;
+}
+.nav-header {
+    width: 1000px;
+    margin: 0 auto;
+}
+.nav-header, .logo, input, .signIn, .img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+.leaf {
+    background-color: aquamarine;
+    margin-right: 10px;
+}
+.nav-title {
+    font-size: 55px;
+}
+input {
+    width: 500px;
+    border-radius: 30px;
+    border: solid;
+    padding: 10px;
+}
+.empty-cart {
+    height: 40px;
+    width: 40px;
+}
+ul {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding-top: 10px;
+    list-style-type: none;
+    font-size: 20px;
+    width: 1000px;
+    border-bottom: solid;
+    border-width: 5px;
+    padding-bottom: 8px;
+}
+
+.header-main {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 10px;
+    font-size: 18px;
+    width: 1000px;
+}
+
+.card-row {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+    width: 1000px;
+    gap: 30px;
+    margin-top: 20px;
+}
+.img-right {
+    height: 275px;
+}
+.card {
+    display: flex;
+    height: 275px;
+}
+
+.card-left {
+    flex-direction: column;
+    background-color: aquamarine;
+}
+p {
+    background-color: aquamarine;
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+}
+.bold {
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;
+} 
+.arrow {
+    height: 40px;
+}
+
+.card-right-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.aloe-one {
+    height: 175px;
+}
+.soothing {
+    display: flex;
+    font-size: 23px;
+}
+.arrow-two {
+    height: 25px;
+    margin-left: 10px;
+}
+
+.card-row-two {
+    background-color: rgb(88, 200, 163);
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+.plant-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.plant-img {
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.cookie-card {
+    background-color: lightgray;
+    border: solid;
+    display: flex;
+    width: 1000px;
+    height: 115px;
+    align-items: center;
+    margin: 0px auto;
+    margin-top: 20px;
+    gap: 10px;
+    padding-right: 5px;
+    position: fixed;
+    bottom: 0;
+    left: 175px;
+}
+button {
+    background-color: aquamarine;
+    color: whitesmoke;
+    font-size: 20px;
+    width: 100px;
+    height: 40px;
+    box-shadow: 3px 3px 2px 1px black;
+    margin-right: 10px;
+}
+.cookieP {
+    background-color: lightgray;
+    font-size: 20px;
+    padding: 0;
+    text-align: left;
+}
