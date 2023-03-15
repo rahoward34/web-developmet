@@ -1,0 +1,35 @@
+.nav {
+    width: 750px;
+    height: 50px;
+    background-color: rgb(94, 93, 93);
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-content:center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.nav-title {
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.nav-links {
+    display: flex;
+    align-content: center;
+    gap: 15px;
+    color: rgb(94, 93, 93);
+}
+.active {
+    color: white;
+    text-decoration: none;
+}
+.btn {
+    background-color: lightblue;
+    border: none;
+    box-shadow: 5px 5px black;
+}
+a {
+    color: lightgray;
+    text-decoration: none;
+}
